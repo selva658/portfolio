@@ -1,0 +1,41 @@
+.copy{
+    text-align: center;
+    margin-top: 80px;
+    width: 100vw;
+    height: 7vh;
+    background-color: #0a1e37;
+    color: antiquewhite;
+    padding: 15px;
+}
+.copy > p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+.copy > p >span{
+     font-size: 20px;
+    font-weight: 600;
+    color: rgb(154,86,249);
+}
+.copy >.ins{
+    font-size: 12px;
+}
+@media screen and (max-width: 768px){
+    .copy{
+        margin-top: 50px;
+        text-align: center;
+        padding: 10px 0 20px 0;
+        height: 7vh;
+    }
+    .copy > p{
+        font-size: 14px;
+        font-weight: 400;
+        width: 95vw;
+        margin: auto;
+    }
+    .copy > p >span{
+     font-size: 14px;
+    font-weight: 400;
+    color: rgb(154,86,249);
+}
+}
